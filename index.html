@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Productivity Calendar</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>2020 Productivity Calendar</h2>
+        <h4>~ color each day depending on how productive you were ~</h4>
+        <p>Select productivity level<br>(with 1 indicating most productive and 5 least productive):</p>
+        <div class="pros_container">
+            <button class="pro pro_1" id="pro_1">
+                <i>1</i>
+            </button>
+            <button class="pro pro_2" id="pro_2">
+                <i>2</i>
+            </button>
+            <button class="pro pro_3" id="pro_3">
+                <i>3</i>
+            </button>
+            <button class="pro pro_4" id="pro_4">
+                <i>4</i>
+            </button>
+            <button class="pro pro_5" id="pro_5">
+                <i>5</i>
+            </button>
+        </div>
+        <p>then click on the circles below</p>
+        <div id="calendar" class="calendar"></div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.3/lib/darkmode-js.min.js"></script>
+    <script>
+    new Darkmode().showWidget();
+    </script>
+</body>
+
+</html>
